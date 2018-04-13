@@ -89,10 +89,10 @@ if __name__ == "__main__":
         elif args.size:
             size = args.size
         if args.byte > 0xFF:
-            print(Style.BRIGHT + Fore.RED + "[-] Byte to find is bigger than 0xFF (255). It is set by default to 0x00.")
+            print(Style.BRIGHT + Fore.RED + "[-] The byte to find is bigger than 0xFF (255). It is now set to 0x00.")
             args.byte = 0x00
         elif args.byte < 0x00:
-            print(Style.BRIGHT + Fore.RED + "[-] Byte to find is smaller than 0x00. It is set by default to 0x00.")
+            print(Style.BRIGHT + Fore.RED + "[-] The byte to find is bigger than 0xFF (255). It is now set to 0x00.")
             args.byte = 0x00
         main(args.file_name, size, args.byte)
     else:
