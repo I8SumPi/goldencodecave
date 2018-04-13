@@ -33,6 +33,6 @@ or if you prefer:
 I noticed that when I run this script with Python2 the script finds 0 code cave. It maybe only work with Python3.
 
 ## Tasks
-[x] Find code cave in PE Files
-[ ] Find code cave in ELF Files
-[ ] Write the shellcode and modify the code to jump in it and execute it
+- [x] Find code cave in PE Files
+- [ ] Find code cave in ELF Files
+- [ ] Write the shellcode and modify the code to jump in it and execute it
