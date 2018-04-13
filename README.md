@@ -17,7 +17,7 @@ or if you prefer:
 ```sh
 ./goldencodecave -f target.exe -sc reverse_tcp_x86.bin
 ```
-* If you to search more or less than 250 bytes, you can specify the size. (if you specify a shellcode file, this arg will be ignored)
+* If you want to search more or less than 250 bytes, you can specify the size. (if you specify a shellcode file, this arg will be ignored)
 ```sh
 ./goldencodecave -f target.exe -s 400
 ```
@@ -30,7 +30,7 @@ or if you prefer:
 ![ScreenShot from LinuxMint with Python3](https://i.imgur.com/Fz5nRkw.jpg)
 
 ## Issues
-I have seen that when I run this script with Python2 the script finds 0 code cave. It maybe only work with Python3.
+I noticed that when I run this script with Python2 the script finds 0 code cave. It maybe only work with Python3.
 
 ## Tasks
 [x] Find code cave in PE Files
