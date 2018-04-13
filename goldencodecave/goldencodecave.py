@@ -3,6 +3,7 @@ import os
 import sys
 if sys.version_info[0] == 2:
     input = raw_input
+    print("It is recommenced to run this program with Python3")
 try:
     import pefile
 except:
